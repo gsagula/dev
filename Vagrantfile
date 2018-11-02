@@ -1,6 +1,13 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
+# Place this file into envoy folder.
+#
+# $ vagrant up
+# $ vagrant ssh
+# $ cd /vagrant
+# $ bazel build //source/exe:envoy-static
+
 Vagrant.configure("2") do |config|
   config.vm.box = "bento/ubuntu-16.04"
   
